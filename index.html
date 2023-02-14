@@ -2,56 +2,644 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Portifólio Matheus Henrique</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+
+  <title>Matheus Henrique</title>
+
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/themify-icons.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
 </head>
 
-<body>
-  <div class="nav-bar">
-    <ol>
-      <li><a href="#sobre"> Sobre Mim </a></li>
-      <li><a href="#skills"> Habilidades </a></li>
-    </ol>
+<body class="theme-blue">
+
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
   </div>
 
-  <div class="sobre" id="sobre">
-    <h1>Matheus Henrique</h1>
-    <div class="image-container">
-      <img id="foto" src="images/Eu.jpg" alt="Matheus Henrique" />
-      <p class="description">
-        Olá me chamo Matheus, sou Brasileiro nascido em João Pessoa, Paraíba.
-        Sou <strong>apaixonado por tecnologia</strong> desde meus nove anos, com apenas treze anos comecei a me
-        aventurar com
-        <strong>Java e MySQL</strong>, acabei me distanciando da área por um tempo mas percebi que está é minha
-        paixão. Resolvi sair um pouco da minha zona de conforto na área e estudar um segmento
-        novo: <strong>Desenvolvimento Web Full Stack na Trybe.</strong>
-        <em>Vejo a tecnologia como uma importante ferramenta para mudarmos o mundo e quero contribuir para isso.</em>
-      </p>
+  <!-- Setting button -->
+  <!-- <div class="config">
+    <div class="template-config">
+      <div class="d-block">
+        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
+      </div>
     </div>
-    <div class="redes-sociais">
-      <a href="https://www.linkedin.com/in/ymaatheus/" target="_blank"><img src="./images/linkedin-brands.svg"
-          alt="Icone Linkedin"> Linkedin</a><br />
-      <a href="https://github.com/yMaatheus" target="_blank"><img src="./images/github-brands.svg"
-          alt="Icone GitHub">GitHub</a>
+    <div class="set-menu">
+      <p>Select Color</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="color-item bg-theme-red" data-class="theme-red"></span>
+        <span class="color-item bg-theme-blue selected" data-class="theme-blue"></span>
+        <span class="color-item bg-theme-green" data-class="theme-green"></span>
+        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/wallpapeper_new.png)">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <a href="" class="navbar-brand">Matheus Henrique</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal">Welcome</h5>
+      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Matheus</b> Henrique</h1>
+      <div class="badge">Software Developer</div>
+    </div> <!-- End Caption header -->
+    <div class="floating-button"><span class="ti-mouse"></span></div>
+  </div>
+
+  <div class="vg-page page-about" id="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/ymaatheus-cutter.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+          <h1 class="fw-light">Matheus Henrique</h1>
+          <h5 class="fg-theme mb-3">Software Developer</h5>
+          <p class="text-muted">
+            Sou <strong>apaixonado por tecnologia</strong> desde meus nove anos, com apenas treze anos comecei a me
+            aventurar com
+            <strong>Java e MySQL</strong>, acabei me distanciando da área por um tempo mas percebi que está é minha
+            paixão. Resolvi sair um pouco da minha zona de conforto na área e estudar um segmento
+            novo: <strong>Desenvolvimento Web Full Stack na Trybe.</strong>
+            <em>Vejo a tecnologia como uma importante ferramenta para mudarmos o mundo e quero contribuir para
+              isso.</em>
+          </p>
+          <ul class="theme-list">
+            <li><b>From:</b> João Pessoa, PB, Brazil</li>
+            <li><b>Lives In:</b> João Pessoa, PB, Brazil</li>
+            <li><b>Age:</b> 25</li>
+          </ul>
+          <div class="social-wrapper">
+            <a role="button" href="assets/files/Curriculo-Matheus-Henrique.pdf" download>
+              <button class="btn btn-theme-outline download-cv"> Download CV</button>
+            </a>
+            <a href="https://www.linkedin.com/in/ymaatheus/"><i class="fab ti-linkedin"></i></a>
+            <a href="https://github.com/yMaatheus"><i class="fab ti-github"></i></a>
+            <a href="https://www.instagram.com/ymatheus.h/"><i class="fab ti-instagram"></i></a>
+            <a href="https://www.youtube.com/@yMaatheus"><i class="fab ti-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <h1 class="text-center fw-normal wow fadeIn">Skills</h1>
+      <div class="row py-3 justify-content-around">
+
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Coding skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Java</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 52.26%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">52.26%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 33.91%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">33.91%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">TypeScript</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 8%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">8%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">HTML + CSS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 7%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">7%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Phyton</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 4%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">1%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Soft Skills</h4>
+
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Proactivity</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">99%</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Critical Thinking</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 97%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">97%</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Teamwork</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 96%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">96%</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Learn to learn</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Communication</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 82%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">82%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal">Education</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2010</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2009</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2008</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+          <h2 class="fw-normal">Experience</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2017 - Current</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2014</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2011</div>
+              <div class="details">
+                <h5>Specialize of course</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="vg-page page-service">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Service</div>
+      </div>
+      <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
+      <div class="row mt-5">
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-layers"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Backend</h4>
+              <p>Apps with NodeJs or Python</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-layout"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Frontend</h4>
+              <p>Web apps with React.js or HTML/CSS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-server"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Database</h4>
+              <p>Relational and non-relational databases</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-cloud-up"></span> <!-- ti-support -->
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Infra</h4>
+              <p>Deploy Apps on AWS or VPS</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
-  <div class="skills" id="skills">
-    <h2>Habilidades:</h2>
-    <ul>
-      <li>Dedicação</li>
-      <li>Empatia</li>
-      <li><em> Programar em Java </em></li>
-      <li>Um ótimo jogador de Valorant</li>
-      <li>Prodígio em quedas de skate</li>
-      <li>Unix e Bash</li>
-      <li>Git</li>
-      <li>Programação Orientada a Objetos</li>
-      <li>Arquitetura MVC</li>
-      <li>Projeto Orientado por Domínio</li>
-    </ul>
+  <!-- Portfolio page -->
+  <div class="vg-page page-portfolio" id="portfolio">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Portfolio</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+      <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+        <button class="btn btn-theme-outline selected" data-filter="*">All</button>
+        <!-- <button class="btn btn-theme-outline" data-filter=".apps">Apps</button> -->
+        <button class="btn btn-theme-outline" data-filter=".fullstack">FullStack</button>
+        <button class="btn btn-theme-outline" data-filter=".frontend">FrontEnd</button>
+        <button class="btn btn-theme-outline" data-filter=".backend">Backend</button>
+      </div>
+
+      <div class="gridder my-3">
+
+        <!-- <div class="grid-item apps wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
+            <img src="../assets/img/work/work-1.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Mobile Travel App</h5>
+              <p>Travel, Discovery</p>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="grid-item apps wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5>">
+            <img src="../assets/img/work/work-1.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Mobile Travel App</h5>
+              <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+              <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item apps fullstack zoomIn">
+          <div class="row justify-content-md-center py-2">
+            <h4>Mobile Travel App</h4>
+          </div>
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox>
+            <img src="../assets/img/work/work-1.jpg" alt="">
+          </div>
+          <div>
+            <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+            <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+          </div>
+        </div>
+
+        <div class="grid-item apps fullstack zoomIn">
+          <div class="row justify-content-md-center py-2">
+            <h4>Mobile Travel App</h4>
+          </div>
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox>
+            <img src="../assets/img/work/work-1.jpg" alt="">
+          </div>
+          <div>
+            <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+            <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+          </div>
+        </div>
+
+        <div class="grid-item apps fullstack zoomIn">
+          <div class="row justify-content-md-center py-2">
+            <h4>Mobile Travel App</h4>
+          </div>
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox>
+            <img src="../assets/img/work/work-1.jpg" alt="">
+          </div>
+          <div>
+            <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+            <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+          </div>
+        </div>
+
+        <div class="grid-item apps wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5>">
+            <img src="../assets/img/work/work-1.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Mobile Travel App</h5>
+              <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+              <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item apps fullstack zoomIn">
+          <div class="row justify-content-md-center py-2">
+            <h4>Mobile Travel App</h4>
+          </div>
+          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox>
+            <img src="../assets/img/work/work-1.jpg" alt="">
+          </div>
+          <div>
+            <a class="caption-item" href="https://github.com/yMaatheus">Github <i class="ti-github"></i></a>
+            <a class="caption-item" href="">Deploy <i class="ti-world"></i></a>
+          </div>
+        </div>
+
+        <!-- <div class="grid-item template wireframes wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-2.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
+            <img src="../assets/img/work/work-2.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Music App</h5>
+              <p>Musics</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item apps ios wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-3.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
+            <img src="../assets/img/work/work-3.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Gaming Dashboard</h5>
+              <p>Games, Streaming</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item graphic ui-ux wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-4.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
+            <img src="../assets/img/work/work-4.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Drugs Delivery App</h5>
+              <p>Health, Drugs</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid-item apps ios wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-5.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
+            <img src="../assets/img/work/work-5.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Musics Discover</h5>
+              <p>Musics, Dashboard</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item graphic ui-ux wireframes wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-6.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
+            <img src="../assets/img/work/work-6.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Game Streaming</h5>
+              <p>Games, Streaming</p>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+      <!-- End gridder -->
+      <!-- <div class="text-center wow fadeInUp">
+        <a href="javascript:void(0)" class="btn btn-theme">Load More</a>
+      </div> -->
+    </div>
   </div>
+  <!-- End Portfolio page -->
+
+  <!-- Blog -->
+  <!-- <div class="vg-page page-blog" id="blog">
+    <div class="container">
+      <div class="text-center">
+        <div class="badge badge-subhead wow fadeInUp">Blog</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Latest Post</h1>
+      <div class="row post-grid">
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card">
+            <div class="img-place">
+              <img src="../assets/img/work/work-9.jpg" alt="">
+            </div>
+            <div class="caption">
+              <a href="javascript:void(0)" class="post-category">Technology</a>
+              <a href="#" class="post-title">Invision design forward fund</a>
+              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card">
+            <div class="img-place">
+              <img src="../assets/img/work/work-6.jpg" alt="">
+            </div>
+            <div class="caption">
+              <a href="javascript:void(0)" class="post-category">Business</a>
+              <a href="#" class="post-title">Announcing a plan for small teams</a>
+              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card">
+            <div class="img-place">
+              <img src="../assets/img/work/work-1.jpg" alt="">
+            </div>
+            <div class="caption">
+              <a href="javascript:void(0)" class="post-category">Design</a>
+              <a href="#" class="post-title">5 basic tips for illustrating</a>
+              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center py-3 wow fadeInUp">
+          <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End blog -->
+
+  <!-- Contact -->
+  <div class="vg-page page-contact" id="contact">
+    <div class="container-fluid">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Contact</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+      <div class="row justify-content-md-center">
+        <div class="col-lg-5">
+          <form class="vg-contact-form">
+            <div class="form-row">
+              <div class="col-12 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Name" placeholder="Your Name">
+              </div>
+              <div class="col-6 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Email" placeholder="Email Address">
+              </div>
+              <div class="col-6 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Subject" placeholder="Subject">
+              </div>
+              <div class="col-12 mt-3 wow fadeInUp">
+                <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
+              </div>
+              <!-- <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit'
+                data-action='submit'>Submit</button> -->
+              <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact -->
+
+  <!-- Footer -->
+  <div class="vg-footer">
+    <div class="col-12">
+      <p class="text-center mb-0 mt-4">Copyright &copy;2020. All right reserved | This template is made with <span
+          class="ti-heart fg-theme-red"></span> by <a href="https://www.macodeid.com/">MACode ID</a></p>
+    </div>
+  </div>
+  <!-- End footer -->
+
+
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+  <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+  <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+  <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+
+  <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+
+  <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="../assets/js/topbar-virtual.js"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+
 </body>
 
 </html>
