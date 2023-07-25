@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "/public/logo.png";
+import Profile from "/public/profile.jpg";
 import { SocialIcon } from "@/components/SocialIcon";
 import { ButtonResume } from "@/components/ButtonResume";
 
@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="w-full h-full flex flex-col gap-6 p-4 md:py-16 md:flex-row">
       <Image
-        src={Logo}
+        src={Profile}
         alt="Foto de perfil"
         width={300}
         height={600}
@@ -23,9 +23,12 @@ export default function AboutPage() {
             paixão de criar e inovar através da tecnologia. Quando eu tinha 13
             anos, comecei a me aventurar com Minecraft, Java e MySQL, criando
             meus primeiros plugins e proporcionando alegria para milhares de
-            jogadores nos servidores em que colaborei. Hoje, vejo a tecnologia
-            como uma importante ferramenta para mudarmos o mundo e quero
-            contribuir para isso como desenvolvedor de software.
+            jogadores nos servidores em que colaborei.
+            <br />
+            <br />
+            Hoje, vejo a tecnologia como uma importante ferramenta para mudarmos
+            o mundo, e quero contribuir desenvolvendo soluções que tenham
+            impacto positivo no cotidiano das pessoas.
           </p>
         </section>
 
