@@ -5,14 +5,15 @@ import dynamicIconImports from "lucide-react/dynamicIconImports";
 interface IconProps extends LucideProps {
   name: keyof typeof dynamicIconImports;
   href: string;
+  border?: boolean;
 }
 
-export function SocialIcon({ name, href, ...props }: IconProps) {
+export function SocialIcon({ name, href, border=true, ...props }: IconProps) {
   const LucideIcon = dynamic(dynamicIconImports[name]);
   return (
     <a
       href={href}
-      className="w-8 h-8 flex justify-center items-center border-2 rounded group border-green-600 hover:border-green-700 hover:bg-black"
+      className={`w-8 h-8 flex justify-center items-center rounded group ${border && 'border-2  border-green-600 hover:border-green-700'} hover:bg-black`}
       target="_blank"
     >
       <LucideIcon
