@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div className="flex mx-auto">
+      <h1>Home Page</h1>
+    </div>
   );
 }
