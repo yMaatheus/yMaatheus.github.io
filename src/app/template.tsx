@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../../public/logo.png";
+import Logo from "/public/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -14,20 +14,21 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
   const toggleMenu = () => {
     setMenu(!menu);
-    document.body.style.overflow = (!menu ? "hidden" : "scroll");
-  }
+    document.body.style.overflow = !menu ? "hidden" : "scroll";
+  };
 
   return (
     <div className="flex flex-col w-full h-screen">
-      <header className="flex w-full mx-auto justify-around p-4 md:py-16">
-        <div className="flex items-center gap-4">
-          <Image
-            src={Logo}
-            alt="Logo"
-            width={128}
-            height={128}
-            className="hidden md:block"
-          />
+      <header className="flex w-full mx-auto justify-between p-4 md:py-16 md:justify-around">
+        <div className="flex flex-col items-center gap-1 md:gap-4 md:flex-row z-10">
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt="Logo"
+              width={128}
+              height={128}
+            />
+          </Link>
           <p>Desenvolvedor Web</p>
         </div>
 
@@ -55,7 +56,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
           <button title="menu button" type="button" onClick={toggleMenu}>
             <Menu className="w-full h-full" />
             {menu && (
-              <div className="absolute w-full min-h-screen bg-white left-0">
+              <div className="absolute w-full h-screen min-h-screen bg-white left-0">
                 <section className="h-full flex flex-col justify-center items-center">
                   <Link
                     href="/"
