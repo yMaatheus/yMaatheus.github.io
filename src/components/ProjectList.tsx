@@ -58,7 +58,7 @@ const projects = [
     name: "Futebol Clube",
     description: "API REST usando arquitetura DDD, POO e cobertura de testes.",
     image: SoccerClub,
-    source: "https://github.com/yMaatheus/project-trybe-futebol-clube",
+    source: "https://github.com/yMaatheus/futebol-clube",
     tags: [
       { tech: "Typescript", color: "bg-purple-400" },
       { tech: "Express.js", color: "bg-gray-400" },
@@ -72,7 +72,7 @@ const projects = [
     name: "App de Delivery",
     description: "Aplicativo de delivery full stack para uma distribuidora de bebidas.",
     image: AppDelivery,
-    source: "https://github.com/yMaatheus/project-delivery-app",
+    source: "https://github.com/yMaatheus/delivery-app",
     tags: [
       { tech: "Javascript", color: "bg-yellow-400" },
       { tech: "ReactJS", color: "bg-blue-400" },
