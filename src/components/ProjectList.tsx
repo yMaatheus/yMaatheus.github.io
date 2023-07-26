@@ -78,7 +78,7 @@ const projects = [
       { tech: "ReactJS", color: "bg-blue-400" },
       { tech: "Zustand", color: "bg-gray-300" },
       { tech: "HTML", color: "bg-orange-400" },
-      { tech: "Express", color: "bg-gray-400" },
+      { tech: "Express.js", color: "bg-gray-400" },
       { tech: "JWT", color: "bg-pink-400" },
       { tech: "Joi", color: "bg-blue-300" },
       { tech: "CORS", color: "bg-gray-300" },
@@ -93,7 +93,7 @@ const projects = [
     source: "https://github.com/yMaatheus/project-car-shop",
     tags: [
       { tech: "Typescript", color: "bg-purple-400" },
-      { tech: "Express", color: "bg-gray-400" },
+      { tech: "Express.js", color: "bg-gray-400" },
       { tech: "MongoDB", color: "bg-green-300" },
       { tech: "CORS", color: "bg-orange-400" },
       { tech: "Zod", color: "bg-blue-300" },
