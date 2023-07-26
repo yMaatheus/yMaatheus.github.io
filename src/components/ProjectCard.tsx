@@ -12,16 +12,16 @@ export function ProjectCard({
   tags=[],
 }: ProjectType) {
   return (
-    <section className="flex flex-col items-center bg-gray-50 rounded-lg border shadow-md md:flex-row md:max-w-xl h-80 hover:bg-gray-200">
+    <section className="flex flex-col items-center bg-gray-50 rounded-lg border shadow-md md:h-80 md:w-[36rem] md:flex-row md:max-w-xl hover:bg-gray-200">
       <Image
         src={image}
         alt={name}
         width={384}
         height={384}
-        className="object-cover w-auto h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2"
+        className="object-cover rounded-full p-8 md:p-2 md:pl-4 md:h-auto md:w-48"
       />
 
-      <section className="flex flex-col p-4 leading-normal md:pt-8">
+      <section className="flex flex-col w-full p-4 leading-normal md:pt-8">
         <section className="flex flex-row justify-between">
           <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
             {name}
