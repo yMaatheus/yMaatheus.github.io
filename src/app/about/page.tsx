@@ -9,9 +9,8 @@ export default function AboutPage() {
       <Image
         src={Profile}
         alt="Foto de perfil"
-        width={300}
-        height={600}
-        className="w-full h-full md:w-auto md:h-auto"
+        width={512}
+        height={612}
       />
       <section className="flex flex-col gap-10">
         <section className="flex flex-col gap-4 md:gap-16">
