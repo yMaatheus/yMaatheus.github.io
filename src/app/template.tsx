@@ -33,20 +33,9 @@ export default function Template({ children }: { children: React.ReactNode }) {
         </div>
 
         <nav className="flex gap-4 items-center max-sm:hidden">
-          <Link
-            href="/"
-            className={`${
-              pathname === "/" && "text-green-600 "
-            } hover:text-green-700`}
-          >
-            Home
-          </Link>
-
           <a
             href="#projects"
-            className={`${
-              pathname === "/about" && "text-green-600 "
-            } hover:text-green-700`}
+            className={` hover:text-green-700`}
           >
             Projetos
           </a>
@@ -58,23 +47,12 @@ export default function Template({ children }: { children: React.ReactNode }) {
             {menu && (
               <div className="absolute w-full h-screen min-h-screen bg-white left-0">
                 <section className="h-full flex flex-col justify-center items-center">
-                  <Link
-                    href="/"
-                    className={`${
-                      pathname === "/" && "text-green-600 "
-                    } hover:text-green-700`}
+                  <a
+                    href="#projects"
+                    className={` hover:text-green-700`}
                   >
-                    Home
-                  </Link>
-
-                  <Link
-                    href="/about"
-                    className={`${
-                      pathname === "/about" && "text-green-600 "
-                    } hover:text-green-700`}
-                  >
-                    Sobre
-                  </Link>
+                    Projetos
+                  </a>
                 </section>
               </div>
             )}
