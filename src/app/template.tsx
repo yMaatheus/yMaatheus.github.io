@@ -42,14 +42,14 @@ export default function Template({ children }: { children: React.ReactNode }) {
             Home
           </Link>
 
-          <Link
+          <a
             href="#projects"
             className={`${
               pathname === "/about" && "text-green-600 "
             } hover:text-green-700`}
           >
             Projetos
-          </Link>
+          </a>
         </nav>
 
         <nav className="flex items-center sm:hidden">
