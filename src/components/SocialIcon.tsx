@@ -1,6 +1,6 @@
-import dynamic from "next/dynamic";
 import { LucideProps } from "lucide-react";
 import dynamicIconImports from "lucide-react/dynamicIconImports";
+import dynamic from "next/dynamic";
 
 interface IconProps extends LucideProps {
   name: keyof typeof dynamicIconImports;
@@ -17,7 +17,7 @@ export function SocialIcon({ name, href, border=true, ...props }: IconProps) {
       target="_blank"
     >
       <LucideIcon
-        size={16}
+        size={18}
         fill="#222"
         absoluteStrokeWidth={false}
         className="text-[#222] group-hover:fill-white group-hover:text-white"
