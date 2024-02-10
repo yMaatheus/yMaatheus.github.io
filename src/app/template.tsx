@@ -1,12 +1,12 @@
 "use client";
 
+import { getActualYear } from "@/utils/TimeUtil";
+import { Menu } from "lucide-react";
 import Image from "next/image";
-import Logo from "/public/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu } from "lucide-react";
-import { getActualYear } from "@/utils/TimeUtil";
+import Logo from "/public/logo.png";
 
 export default function Template({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -29,7 +29,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
               height={128}
             />
           </Link>
-          <p>Desenvolvedor Web</p>
+          <p>Desenvolvedor</p>
         </div>
 
         <nav className="flex gap-4 items-center max-sm:hidden">
@@ -43,12 +43,12 @@ export default function Template({ children }: { children: React.ReactNode }) {
           </Link>
 
           <Link
-            href="/about"
+            href="#projects"
             className={`${
               pathname === "/about" && "text-green-600 "
             } hover:text-green-700`}
           >
-            Sobre
+            Projetos
           </Link>
         </nav>
 
