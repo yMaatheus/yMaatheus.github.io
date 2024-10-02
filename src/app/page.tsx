@@ -28,7 +28,7 @@ export default function Home() {
           <section className="flex flex-row gap-2">
             <SocialIcon
               name="linkedin"
-              href="https://www.linkedin.com/in/ymaatheus/"
+              href="https://www.linkedin.com/in/mthmm/"
             />
             <SocialIcon name="github" href="https://github.com/yMaatheus" />
             <SocialIcon
