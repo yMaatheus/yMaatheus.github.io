@@ -11,14 +11,17 @@ export default function Home() {
             Olá, Me chamo Matheus!
           </h1>
           <p className="max-w-3xl border-l-2 border-gray-300 px-4 italic md:px-6">
-            Apaixonado por tecnologia e inovação. Desde cedo, sempre tive a
-            paixão de criar e inovar através da tecnologia. Quando eu tinha 13
-            anos, comecei a me aventurar com Minecraft, Java e MySQL, criando
-            meus primeiros plugins e proporcionando alegria para milhares de
-            jogadores nos servidores em que colaborei.
+            Sou um Desenvolvedor Full Stack Pleno com mais de 4 anos de
+            experiência em desenvolvimento de software, destacando um forte
+            domínio em programação orientada a objetos e funcional, além de
+            profundo conhecimento em Design Patterns, React, JavaScript e
+            DevOps. Tenho foco em soluções inovadoras, escalabilidade de
+            aplicações e otimização de infraestrutura. Estou preparado para
+            contribuir de forma eficaz para o sucesso dos seus projetos de
+            software.
             <br />
             <br />
-            Hoje, vejo a tecnologia como uma importante ferramenta para mudarmos
+            Vejo a tecnologia como uma importante ferramenta para mudarmos
             o mundo, e quero contribuir desenvolvendo soluções que tenham
             impacto positivo no cotidiano das pessoas.
           </p>
@@ -44,10 +47,11 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col items-center gap-6">
-        <h1 className="font-bold" id="projects">Meus Projetos</h1>
+        <h1 className="font-bold" id="projects">
+          Meus Projetos
+        </h1>
         <ProjectList />
       </section>
-
     </div>
   );
 }
